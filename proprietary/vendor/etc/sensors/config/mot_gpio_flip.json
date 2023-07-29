@@ -1,0 +1,16 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Surf", "RCM"],
+    "soc_id": ["457", "482", "552", "530", "531", "540"]
+  },
+  "mot_gpio_flip":{
+    "owner": "mot_gpio_flip",
+    ".params":{
+      "owner": "mot_gpio_flip",
+      "flip_state_gpio":{ "type": "int", "ver": "0",
+        "data": "-1"
+      }
+    }
+  }
+}

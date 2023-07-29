@@ -1,0 +1,24 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM"],
+    "soc_id": ["457", "482", "552", "530", "531", "540"],
+    "ro.vendor.hw.revision": ["dvt1b","dvt2a"],
+    "ro.vendor.hw.radio":["NA"]
+  },
+  "mmc56x3x_0_platform":{
+    "owner": "sns_mmc56x3x",
+    ".orient":{
+      "owner": "sns_mmc56x3x",
+      "x":{ "type": "str", "ver": "1",
+        "data": "-z"
+      },
+      "y":{ "type": "str", "ver": "1",
+        "data": "-y"
+      },
+      "z":{ "type": "str", "ver": "1",
+        "data": "+x"
+      }
+    }
+
+  }
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configstore>
+	<config type="default">
+		<configuration>
+			<name>panelId</name>
+			<value>4</value>
+		</configuration>
+		<!-- type 0:qdutils::DISPLAY_PRIMARY 3:qdutils::DISPLAY_BUILTIN_2-->
+		<configuration>
+			<name>qdutilsDisplayType</name>
+			<value>3</value>
+		</configuration>
+		<configuration>
+			<name>dbvNodePath</name>
+			<value>/sys/class/backlight/panel1-backlight/brightness</value>
+		</configuration>
+		<configuration>
+			<name>dcNodePath</name>
+			<value>/sys/class/drm/card0-DSI-2/panelDC</value>
+		</configuration>
+		<configuration>
+			<name>brightnessRange</name>
+			<value>14056</value>
+		</configuration>
+		<!-- windowLeft Top Width Height -->
+		<configuration>
+			<name>windowRect</name>
+			<value>418,272,72,48</value>
+		</configuration>
+		<configuration>
+			<name>panelWidthCorrect</name>
+			<value>1088</value>
+		</configuration>
+		<!-- lux formula form vendor ams   als lux coef change 3 times  According to the maximum brightness of the white image in dbv14000 -->
+		<configuration>
+			<name>als_lux_ch_coefs</name>
+			<value>2.54976,0.775,-0.863,3.728,-3.09</value>
+		</configuration>
+		<configuration>
+			<name>passByLuxThresh</name>
+			<value>5000.0</value>
+		</configuration>
+		<configuration>
+			<name>pwmToDcDbv</name>
+			<value>6720</value>
+		</configuration>
+		<configuration>
+			<name>single_golden_ch</name>
+			<value>492.180,219.462,222.321,97.282</value>
+		</configuration>
+		<configuration>
+			<name>multi_dbv_golden_ch</name>
+			<value>5,1,0,60,2000,25423,12451,11812,3814,1,0,60,4500,116239,54531,52706,19289,1,0,60,6716,258501,118326,118102,46039,1,0,60,9000,405891,180915,184376,79414,1,0,60,14000,940388,415034,418776,188482</value>
+		</configuration>
+		<!-- type 0:maven 1:canyon 2:juno-->
+		<configuration>
+			<name>tensorflow_use_type</name>
+			<value>1</value>
+		</configuration>
+		<configuration>
+			<name>lux_filter_so</name>
+			<value>panel_als_comp_filter_juno.so</value>
+		</configuration>
+		<configuration>
+			<name>tfModePath</name>
+			<value>/vendor/etc/sensors/als_comp_tf_cli.config</value>
+		</configuration>
+		<configuration>
+			<name>tfModeDcPath</name>
+			<value>/vendor/etc/sensors/als_comp_tf_cli_dc_on.config</value>
+		</configuration>
+	</config>
+</Configstore>

@@ -1,0 +1,28 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD"],
+    "soc_id": ["457", "482", "552", "530", "531", "540"],
+    "panel": ["csot_nt37705_667_1080x2640_dsc_cmd_pb"]
+  },
+  "tcs3720_0_platform":{
+    "owner": "sns_tcs3720",
+    ".als":{
+      "owner": "sns_tcs3720",
+      ".scale_cal":{
+        "owner": "sns_tcs3720",
+        "tf_param_id":{ "type": "int", "ver": "10101010",
+          "data": "1"
+        }
+      },
+      ".lux_coefs":{
+        "owner": "sns_tcs3720",
+        "4ch_coefs_0":{ "type": "str", "ver": "10101010",
+          "data": "0,0.849802,1.134,-1.145,5.352,-2.678"
+        },
+        "4ch_coefs_1":{ "type": "str", "ver": "10101010",
+          "data": "0,0.849802,1.134,-1.145,5.352,-2.678"
+        }
+      }
+    }
+  }
+}
