@@ -6,34 +6,34 @@
   },
   "mot_drop":{
     "owner": "mot_drop",
-    ".params":{
+    ".params2":{
       "owner": "mot_drop",
-      "first_accel":{ "type": "flt", "ver": "0",
-        "data": "40"
+      "super_huge_value":{ "type": "flt", "ver": "0",
+        "data": "50"
       },
-      "acc_count":{ "type": "int", "ver": "0",
-        "data": "137"
+      "huge_value":{ "type": "flt", "ver": "0",
+        "data": "21"
       },
-      "suspect_variance":{ "type": "flt", "ver": "0",
-        "data": "10.0"
+      "stable_value":{ "type": "flt", "ver": "0",
+        "data": "1"
       },
-      "detect_variance":{ "type": "flt", "ver": "0",
-        "data": "0.2"
+      "one_meter_drop_duration":{ "type": "flt", "ver": "0",
+        "data": "0.4523"
       },
-      "detect_accel":{ "type": "flt", "ver": "0",
-        "data": "1.8"
+      "throw_up_correction_factor":{ "type": "flt", "ver": "0",
+        "data": "0.013"
       },
-      "impact_accel":{ "type": "flt", "ver": "0",
-        "data": "3000"
+      "throw_up_correction_threshold1":{ "type": "flt", "ver": "0",
+        "data": "18"
       },
-      "impact_variance":{ "type": "flt", "ver": "0",
-        "data": "10000"
+      "throw_up_correction_threshold2":{ "type": "flt", "ver": "0",
+        "data": "6"
       },
-      "wait_time":{ "type": "int", "ver": "0",
-        "data": "500"
+      "throw_up_correction_offset":{ "type": "flt", "ver": "0",
+        "data": "10"
       },
-      "alpha":{ "type": "flt", "ver": "0",
-        "data": "0.37"
+      "rotation_compensation":{ "type": "flt", "ver": "0",
+        "data": "0.8"
       }
     }
   }

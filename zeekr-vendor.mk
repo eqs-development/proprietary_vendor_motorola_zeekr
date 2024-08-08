@@ -12,10 +12,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.xml \
     vendor/motorola/zeekr/proprietary/vendor/etc/permissions/com.motorola.camera3.zeekr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.zeekr.xml \
     vendor/motorola/zeekr/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
-    vendor/motorola/zeekr/proprietary/product/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.motodisplay.xml \
     vendor/motorola/zeekr/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
     vendor/motorola/zeekr/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
-    vendor/motorola/zeekr/proprietary/product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml \
     vendor/motorola/zeekr/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
     vendor/motorola/zeekr/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/zeekr/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
@@ -23,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/system_ext/bin/motsettings:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/motsettings \
     vendor/motorola/zeekr/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/zeekr/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    vendor/motorola/zeekr/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
     vendor/motorola/zeekr/proprietary/vendor/bin/hw/motorola.hardware.sensorext-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.sensorext-service \
     vendor/motorola/zeekr/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@2.0-service \
     vendor/motorola/zeekr/proprietary/vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.camera.provider@2.7-service_64 \
@@ -41,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/zeekr/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1056x1068_363.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1056x1068_363.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667.json \
+    vendor/motorola/zeekr/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667_c8.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667_c8.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_cmd_tianma_1080p_667.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_cmd_tianma_1080p_667.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_video_dummy_qhd.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_video_dummy_qhd.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_with_DSC.json \
@@ -49,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/motorola/zeekr/proprietary/vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted:$(TARGET_COPY_OUT_VENDOR)/etc/face3d/qcnn_concat_file_model-0324_2_encrypted \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc.rc \
-    vendor/motorola/zeekr/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/motorola.hardware.sensorext.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.sensorext.service.rc \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
@@ -71,10 +68,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_config.xml \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_config_cli.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_config_cli.xml \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_cli.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_cli.config \
+    vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_cli_csot_c8.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_cli_csot_c8.config \
+    vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_cli_csot_c8_dc_on.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_cli_csot_c8_dc_on.config \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_cli_dc_on.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_cli_dc_on.config \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_csot_a.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_csot_a.config \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_csot_b.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_csot_b.config \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_csot_b_dc_on.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_csot_b_dc_on.config \
+    vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_csot_c8.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_csot_c8.config \
+    vendor/motorola/zeekr/proprietary/vendor/etc/sensors/als_comp_tf_csot_c8_dc_on.config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/als_comp_tf_csot_c8_dc_on.config \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/bmp5_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmp5_0.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/lsm6dso_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_1.json \
@@ -130,7 +131,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/tcs3720_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3720_0.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/tcs3720_0_csotb_always.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3720_0_csotb_always.json \
+    vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/tcs3720_0_csotc8_always.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3720_0_csotc8_always.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/tcs3720_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3720_1.json \
+    vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/tcs3720_1_csotc8_always.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3720_1_csotc8_always.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/tcs3720_1_dvt1a.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3720_1_dvt1a.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/tcs3720_1_pvt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3720_1_pvt.json \
     vendor/motorola/zeekr/proprietary/vendor/etc/sensors/config/waipio_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_default_sensors.json \
@@ -141,14 +144,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/etc/tetras/portrait_repair_composite.model:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/portrait_repair_composite.model \
     vendor/motorola/zeekr/proprietary/vendor/etc/thermal-engine-zeekr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-zeekr.conf \
     vendor/motorola/zeekr/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
-    vendor/motorola/zeekr/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/motorola/zeekr/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
-    vendor/motorola/zeekr/proprietary/vendor/firmware/CAMERA_ICP_480.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_480.elf \
     vendor/motorola/zeekr/proprietary/vendor/firmware/cps4019.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cps4019.bin \
     vendor/motorola/zeekr/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
     vendor/motorola/zeekr/proprietary/vendor/firmware/csot_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_test_limits_255.csv \
-    vendor/motorola/zeekr/proprietary/vendor/firmware/goodix-csot-gt9916P-2303050a-643ee3-zeekr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916P-2303050a-643ee3-zeekr.bin \
+    vendor/motorola/zeekr/proprietary/vendor/firmware/goodix-csot-gt9916P-2306210e-64925b5a-zeekr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916P-2306210e-64925b5a-zeekr.bin \
     vendor/motorola/zeekr/proprietary/vendor/firmware/mot_dw9784.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9784.prog \
     vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64e_hi1336_cli_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64e_hi1336_cli_eeprom.so \
     vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p64e_hi1336_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p64e_hi1336_eeprom.so \
@@ -376,20 +375,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/zeekr/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/motorola/zeekr/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib/motorola.hardware.camera.desktop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.desktop@1.0.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib/motorola.hardware.camera.desktop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.desktop@2.0.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libSnpeHtpV68Skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libSnpeHtpV68Skel.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libSnpeHtpV69Skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libSnpeHtpV69Skel.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libVppFrcQnnHtp:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVppFrcQnnHtp \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libVppQnnHtp:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVppQnnHtp \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libcalculator_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libcalculator_skel.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp_frc:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmobilenet_dsp_frc \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmobilenet_dsp_frc_networks \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libvpp_ais_networks:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_ais_networks \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libvpp_vqa_networks:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_vqa_networks \
-    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpt_action_recognition \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/bm2n08.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n08.bin \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/bm2n09.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n09.bin \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/capi_elus_rx.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_elus_rx.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/capi_elus_tx.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_elus_tx.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_jpege_skel.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libapn_dsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libapn_dsp_skel.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libbitml_nsp_skel.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libbitml_nsp_v2_skel.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libcamera_nn_skel.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libhdr_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhdr_skel.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libhme_dsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhme_dsp_skel.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib/rfsa/adsp/libmctfengine_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmctfengine_skel.so \
     vendor/motorola/zeekr/proprietary/vendor/lib/vendor.qti.hardware.camera.aon@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.aon@1.0-service-impl.so \
     vendor/motorola/zeekr/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/motorola/zeekr/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u.bin \
@@ -654,13 +651,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
     vendor/motorola/zeekr/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/motorola/zeekr/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib64/motorola.hardware.camera.desktop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.desktop@1.0.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib64/motorola.hardware.camera.desktop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.desktop@2.0.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib64/motorola.hardware.sensors-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.sensors-V1-ndk_platform.so \
     vendor/motorola/zeekr/proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.nqx.default.hw.so \
+    vendor/motorola/zeekr/proprietary/vendor/lib64/panel_als_comp_filter_juno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/panel_als_comp_filter_juno.so \
     vendor/motorola/zeekr/proprietary/vendor/lib64/se_nq_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/se_nq_extn_client.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib64/sensors.moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.moto.so \
-    vendor/motorola/zeekr/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/motorola/zeekr/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@2.0.so \
     vendor/motorola/zeekr/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so \
     vendor/motorola/zeekr/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \

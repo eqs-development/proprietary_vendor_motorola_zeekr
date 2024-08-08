@@ -102,4 +102,33 @@
 			<value>/vendor/etc/sensors/als_comp_tf_csot_b_dc_on.config</value>
 		</configuration>
 	</config>
+	<!-- config for csot_nt37705_667_1080x2640_dsc_cmd_c8 -->
+	<config type="2">
+		<configuration>
+			<name>als_lux_ch_coefs</name>
+			<value>0.8499,-4.787,4.137,15.387,-7.583</value>
+		</configuration>
+		<!-- channel raw data under dvb 10000 -->
+		<configuration>
+			<name>single_golden_ch</name>
+			<value>121.62023,68.858734,46.77657,21.966454</value>
+		</configuration>
+		<!-- channel raw data under multi panel dbv & fps -->
+		<configuration>
+			<name>multi_dbv_golden_ch</name>
+			<value>5,0,0,60,2000,3263,2125,949,439,0,0,60,4500,15269,9951,4421,2061,0,0,60,6716,33064,21529,9585,4460,0,0,60,9000,61029,39642,17716,8282,0,0,60,14000,162373,105753,47189,21886</value>
+		</configuration>
+		<configuration>
+			<name>tensorflow_use_type</name>
+			<value>1</value>
+		</configuration>
+		<configuration>
+			<name>tfModePath</name>
+			<value>/vendor/etc/sensors/als_comp_tf_csot_c8.config</value>
+		</configuration>
+		<configuration>
+			<name>tfModeDcPath</name>
+			<value>/vendor/etc/sensors/als_comp_tf_csot_c8_dc_on.config</value>
+		</configuration>
+	</config>
 </Configstore>
