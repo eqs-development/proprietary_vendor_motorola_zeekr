@@ -676,3 +676,6 @@ PRODUCT_PACKAGES += \
     moto-settings \
     com.android.hotwordenrollment.common.util \
     motorola.hardware.sensorext.service
+
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlay
