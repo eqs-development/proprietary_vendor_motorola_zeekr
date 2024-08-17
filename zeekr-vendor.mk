@@ -144,25 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/firmware/csot_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_test_limits_255.csv \
     vendor/motorola/zeekr/proprietary/vendor/firmware/goodix-csot-gt9916P-2306210e-64925b5a-zeekr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916P-2306210e-64925b5a-zeekr.bin \
     vendor/motorola/zeekr/proprietary/vendor/firmware/mot_dw9784.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9784.prog \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_zeekr_hi1336_cli_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_zeekr_hi1336_cli_qtech.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_zeekr_hi1336_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_zeekr_hi1336_qtech.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_zeekr_imx563_cli_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_zeekr_imx563_cli_sunny.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_zeekr_imx563_cli_sunny_2nd.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_zeekr_imx563_cli_sunny_2nd.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_zeekr_imx563_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_zeekr_imx563_sunny.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_zeekr_imx563_sunny_2nd.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_zeekr_imx563_sunny_2nd.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_zeekr_ov32b40_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_zeekr_ov32b40_sunny.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.tuned.mot_zeekr_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_zeekr_hi1336.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.tuned.mot_zeekr_hi1336_cli.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_zeekr_hi1336_cli.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.tuned.mot_zeekr_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_zeekr_imx563.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.tuned.mot_zeekr_imx563_2nd.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_zeekr_imx563_2nd.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.tuned.mot_zeekr_imx563_cli.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_zeekr_imx563_cli.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.tuned.mot_zeekr_imx563_cli_2nd.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_zeekr_imx563_cli_2nd.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/com.qti.tuned.mot_zeekr_ov32b40.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_zeekr_ov32b40.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/motorola/zeekr/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/motorola/zeekr/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u.bin \
     vendor/motorola/zeekr/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_zeekr_hi1336_cli_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_zeekr_hi1336_cli_qtech.bin \
     vendor/motorola/zeekr/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_zeekr_hi1336_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_zeekr_hi1336_qtech.bin \
@@ -191,6 +172,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl
 
 PRODUCT_PACKAGES += \
+    libpn560_fw \
+    libsn100u_fw \
+    libsn220u_fw \
     com.mot.eeprom.mot_gt24p64e_hi1336_cli_eeprom \
     com.mot.eeprom.mot_gt24p64e_hi1336_eeprom \
     com.mot.eeprom.mot_gt24p64e_imx563_cli_eeprom \
@@ -202,6 +186,10 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.mot_imx563 \
     com.qti.sensor.mot_imx563_cli \
     com.qti.sensor.mot_ov32b40 \
+    com.arcsoft.node.dc_capture \
+    com.arcsoft.node.dc_preview \
+    com.arcsoft.node.smooth_transition \
+    com.arcsoft.node.supernightraw \
     com.bst.node.hdrdetect \
     com.bst.node.yuvhdr \
     com.mot.node.c2d \
@@ -272,6 +260,7 @@ PRODUCT_PACKAGES += \
     com.vidhance.node.ica \
     com.vidhance.node.processing \
     com.vidhance.stats.aec_dmbr \
+    libdepthmapwrapper_secure \
     camx.device@3.2-impl \
     camx.device@3.3-impl \
     camx.device@3.4-ext-impl \
@@ -290,6 +279,7 @@ PRODUCT_PACKAGES += \
     camx.provider@2.7-legacy \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
+    com.qti.feature2.arcrawpro \
     com.qti.feature2.demux \
     com.qti.feature2.derivedoffline \
     com.qti.feature2.frameselect \
@@ -329,18 +319,37 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.mcx.usecase.extension \
     camera.qcom \
     com.qti.chi.override \
+    libAncHumanSegFigureFusion \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
     libFace3DTA \
     libFace3D_hlos \
+    libPlatformValidatorShared \
     libQ6MSFR_manager_stub \
+    libSNPE \
+    libSnpeHtpPrepare \
+    libSnpeHtpV68Stub \
+    libSnpeHtpV69Stub \
     liba2d_helper \
     libaidenoiser \
     libaidenoiserv2 \
+    libancbase_rt_fusion \
     libarcsoft_chi_utils \
+    libarcsoft_distortion_correction \
+    libarcsoft_dual_sat \
+    libarcsoft_dual_zoomtranslator \
+    libarcsoft_mcxmflpolicy \
+    libarcsoft_portrait_distortion_correction \
+    libarcsoft_portrait_super_night_se_raw \
+    libarcsoft_qnnhtp \
+    libarcsoft_super_night_raw \
+    libarcsoft_super_night_se_raw \
     libbitmlengine \
     libbitmlenginev2 \
+    libc++_shared \
+    libcalculator \
+    libcalculator_htp \
     libcamera_nn_stub \
     libcamerapostproc \
     libcamxcommonutils \
@@ -359,10 +368,15 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
+    libdualcam_optical_zoom_control \
+    libdualcam_video_optical_zoom \
+    libeye_tracking_dsp_sample_stub \
     libface3d_dev \
+    libflatbuffers-cpp_vendor \
     libhdr10plus \
     libhdr_impl \
     libhme \
+    libhta \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -378,68 +392,34 @@ PRODUCT_PACKAGES += \
     libmot_chi_desktop_helper \
     libmot_engine_settings \
     libmotcameramodulemonitor \
+    libmpbase \
     libopencv \
     libopencv3a \
     libopestriping \
     libos \
-    libpn560_fw \
     libportrait_repair_ppl3_ocl \
     libqll \
     libqll10 \
     libqllengine \
     libqshcamera \
+    libruy_vendor \
     libsfeShiftExtrapolation \
-    libsn100u_fw \
-    libsn220u_fw \
+    libsnpe_dsp_domains_v2 \
+    libsnpe_loader \
     libswregistrationalgo \
     libsynx \
+    libtextclassifier_hash_vendor \
     libtfestriping \
+    libtflite_vendor \
     libthreadutils \
     libubifocus \
     libvidhance \
-    vendor.qti.hardware.camera.aon@1.0-service-impl \
-    vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    libvideoutils \
-    com.arcsoft.node.dc_capture \
-    com.arcsoft.node.dc_preview \
-    com.arcsoft.node.smooth_transition \
-    com.arcsoft.node.supernightraw \
-    libdepthmapwrapper_secure \
-    com.qti.feature2.arcrawpro \
-    libAncHumanSegFigureFusion \
-    libPlatformValidatorShared \
-    libSNPE \
-    libSnpeHtpPrepare \
-    libSnpeHtpV68Stub \
-    libSnpeHtpV69Stub \
-    libancbase_rt_fusion \
-    libarcsoft_distortion_correction \
-    libarcsoft_dual_sat \
-    libarcsoft_dual_zoomtranslator \
-    libarcsoft_mcxmflpolicy \
-    libarcsoft_portrait_distortion_correction \
-    libarcsoft_portrait_super_night_se_raw \
-    libarcsoft_qnnhtp \
-    libarcsoft_super_night_raw \
-    libarcsoft_super_night_se_raw \
-    libc++_shared \
-    libcalculator \
-    libcalculator_htp \
-    libdualcam_optical_zoom_control \
-    libdualcam_video_optical_zoom \
-    libeye_tracking_dsp_sample_stub \
-    libflatbuffers-cpp_vendor \
-    libhta \
-    libmpbase \
-    libruy_vendor \
-    libsnpe_dsp_domains_v2 \
-    libsnpe_loader \
-    libtextclassifier_hash_vendor \
-    libtflite_vendor \
     nfc_nci.nqx.default.hw \
     panel_als_comp_filter_juno \
     se_nq_extn_client \
     vendor.nxp.hardware.nfc@2.0 \
+    vendor.qti.hardware.camera.aon@1.0-service-impl \
+    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     bm2n08 \
     bm2n09 \
     capi_elus_rx \
