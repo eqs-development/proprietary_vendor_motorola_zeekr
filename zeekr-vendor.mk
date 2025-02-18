@@ -3157,25 +3157,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted:$(TARGET_COPY_OUT_VENDOR)/etc/face3d/qcnn_concat_file_model-0324_2_encrypted \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc.rc \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/motorola.hardware.sensorext.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.sensorext.service.rc \
-    vendor/motorola/zeekr/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/motorola/zeekr/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/motorola/zeekr/proprietary/vendor/etc/jiigan/jiigan_model.data:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/jiigan_model.data \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-PN557.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN557.conf \
     vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-PN560.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN560.conf \
     vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-SN220-UICC.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220-UICC.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-SN220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-mtp-SN100-UICC.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100-UICC.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-nci_PN557.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_PN557.conf \
     vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-nci_PN560.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_PN560.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-nci_SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_SN100.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-nci_SN220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_SN220.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
-    vendor/motorola/zeekr/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
     vendor/motorola/zeekr/proprietary/vendor/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.content.ai.xml \
     vendor/motorola/zeekr/proprietary/vendor/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.lens.xml \
     vendor/motorola/zeekr/proprietary/vendor/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.xml \
@@ -3292,9 +3280,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/zeekr/proprietary/vendor/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl
 
 PRODUCT_PACKAGES += \
-    libpn560_fw \
-    libsn100u_fw \
-    libsn220u_fw \
     android.hardware.secure_element@1.0-impl \
     com.mot.eeprom.mot_gt24p64e_hi1336_cli_eeprom \
     com.mot.eeprom.mot_gt24p64e_hi1336_eeprom \
@@ -3521,6 +3506,7 @@ PRODUCT_PACKAGES += \
     libopencv3a \
     libopestriping \
     libos \
+    libpn560_fw \
     libportrait_repair_ppl3_ocl \
     libqll \
     libqll10 \
@@ -3528,6 +3514,7 @@ PRODUCT_PACKAGES += \
     libqshcamera \
     libruy_vendor \
     libsfeShiftExtrapolation \
+    libsn220u_fw \
     libsnpe_dsp_domains_v2 \
     libsnpe_loader \
     libswregistrationalgo \
@@ -3539,10 +3526,8 @@ PRODUCT_PACKAGES += \
     libubifocus \
     libvidhance \
     ls_nq_client \
-    nfc_nci.nqx.default.hw \
     panel_als_comp_filter_juno \
     se_nq_extn_client \
-    vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
@@ -3572,7 +3557,6 @@ PRODUCT_PACKAGES += \
     motorola.hardware.sensorext.service.xml \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     motorola.hardware.sensorext-service \
-    vendor.nxp.hardware.nfc@2.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.secure_element@1.2-service \
